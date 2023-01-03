@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+body header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body header #burger_logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 40px;
+}
+body header #burger_logo button {
+  background-color: transparent;
+  border: none;
+  padding: none;
+  height: 34px;
+  display: flex;
+  align-items: center;
+}
+body header #burger_logo button i {
+  font-size: 24px;
+}
+body header #burger_logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 40px;
+}
+body header #search_container {
+  display: flex;
+  align-content: center;
+  width: 40%;
+  height: 40px;
+}
+body header #search_container #search_input {
+  width: 70%;
+  border-radius: 25px 0px 0px 25px;
+  border: 1px solid gray;
+  border-right: none;
+}
+body header #search_container #search_btn {
+  background-color: rgba(128, 128, 128, 0.096);
+  border-radius: 0px 25px 25px 0px;
+  display: grid;
+  align-items: center;
+  padding: 0px 15px;
+  color: gray;
+  border: 1px solid gray;
+}
+body header #search_container #voice_search {
+  background-color: rgba(128, 128, 128, 0.096);
+  border-radius: 25px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+}
+body header #search_container #voice_search i {
+  font-size: 20px;
+}
+body header #profile_items {
+  display: flex;
+  height: 40px;
+  align-content: center;
+  gap: 20px;
+}
+body header #profile_items i {
+  font-size: 24px;
+  align-self: center;
+}
+body header #profile_items img {
+  border-radius: 25px;
+}/*# sourceMappingURL=main.css.map */
